@@ -35,7 +35,7 @@ public class Computer implements Comparable<Computer>{
 
     @Override
     public int compareTo(Computer c) {
-        return this.cpu.compareTo(c.getCpu());
+        return this.name.compareTo(c.getName());
     }
 
     @Override
